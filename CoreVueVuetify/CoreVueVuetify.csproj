@@ -5,6 +5,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="ClientApp\**" />
+    <Compile Remove="VueApp\**" />
+    <Content Remove="ClientApp\**" />
+    <Content Remove="VueApp\**" />
+    <EmbeddedResource Remove="ClientApp\**" />
+    <EmbeddedResource Remove="VueApp\**" />
+    <None Remove="ClientApp\**" />
+    <None Remove="VueApp\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="wwwroot\" />
   </ItemGroup>
 
